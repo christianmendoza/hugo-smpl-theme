@@ -1,6 +1,6 @@
 # Hugo SMPL Theme
 
-Hugo SMPL Theme is based on [Identity template by HTML5 UP](http://html5up.net/identity). It was ported to Hugo for training and fun. It is rather configurable and flexible despite it's simplicity.
+Hugo SMPL Theme is based on [SMPL template by BlackTie](http://blacktie.co/2013/12/smpl-a-simple-contact-page/). It was ported to Hugo for training and fun. It is rather configurable and flexible despite its simplicity.
 
 ## Demo
 
