@@ -1,0 +1,7 @@
+<div class="row centered">
+  <div class="col-lg-8 col-lg-offset-2 w tooltip-demo">
+    {{ range .Site.Params.social }}
+      <a data-toggle="tooltip" title="{{ .title }}" href="{{ .link }}" target="_blank"><i class="fa {{ .icon }}"></i></a>
+    {{ end }}
+  </div>
+</div>

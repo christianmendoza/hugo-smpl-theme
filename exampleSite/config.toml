@@ -1,0 +1,83 @@
+# Site settings
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "BlackTie.co | Free Bootstrap Themes"
+theme = "hugo-smpl-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-XXXXXXXX-1"
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Your Name"
+  description = "Your Description"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    alt = "BlackTie.co"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "BlackTie.co<br>SMPL Theme."
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Dribbble"
+    icon = "fa-dribbble"
+    link = "http://dribbble.com/CarlosAlvarez"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "http://twitter.com/BlackTie_co"
+
+  [[params.social]]
+    title = "Premium Themes"
+    icon = "fa-briefcase"
+    link = "https://wrapbootstrap.com/user/Basicoh"
+
+  [[params.social]]
+    title = "Free Themes"
+    icon = "fa-heart"
+    link = "http://BlackTie.co"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
+    link = "http://freelance.postach.io"
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:carlos@alvarez.is"
+
+  [[params.social]]
+    title = "Newsletter"
+    icon = "fa-coffee"
+    link = "http://eepurl.com/Eck_T"
