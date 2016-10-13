@@ -1,12 +1,12 @@
 # Hugo SMPL Theme
 
-Hugo SMPL Theme is based on [SMPL template by BlackTie](http://blacktie.co/2013/12/smpl-a-simple-contact-page/). It was ported to Hugo for training and fun. It is rather configurable and flexible despite its simplicity.
+Hugo SMPL Theme is based on the [SMPL template by BlackTie](http://blacktie.co/2013/12/smpl-a-simple-contact-page/). It was ported to Hugo for training and fun. It is rather configurable and flexible despite its simplicity.
+
 
 ## Demo
 
 Demo on [themes.gohugo.io](http://themes.gohugo.io/theme/hugo-smpl-theme/) and on my personal website [christianmendoza.me](//christianmendoza.me) (customized)
 
-## Live
 
 ## Features
 
@@ -14,6 +14,7 @@ Demo on [themes.gohugo.io](http://themes.gohugo.io/theme/hugo-smpl-theme/) and o
 - Configurable appearance
 - Configurable social links
 - Google Analytics
+
 
 ## Screenshot
 
