@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org"
+baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "BlackTie.co | Free Bootstrap Themes"
 theme = "hugo-smpl-theme"
