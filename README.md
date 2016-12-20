@@ -5,7 +5,7 @@ Hugo SMPL Theme is based on the [SMPL template by BlackTie](http://blacktie.co/2
 
 ## Demo
 
-Demo on [themes.gohugo.io](http://themes.gohugo.io/theme/hugo-smpl-theme/) and on my personal website [christianmendoza.me](//christianmendoza.me) (customized)
+Demo on [themes.gohugo.io](http://themes.gohugo.io/theme/hugo-smpl-theme/).
 
 
 ## Features
