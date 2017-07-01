@@ -8,7 +8,7 @@ description = "A really simple theme to share your contact information and socia
 homepage = "//github.com/christianmendoza/hugo-smpl-theme"
 tags = ["social", "onepage", "one page", "configurable", "responsive", "personal", "google analytics"]
 features = ["social", "onepage", "one page", "configurable", "responsive", "personal", "google analytics"]
-min_version = 0.15
+min_version = 0.21
 
 [author]
   name = "Christian Mendoza"
