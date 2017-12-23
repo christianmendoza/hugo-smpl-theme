@@ -1,42 +1,19 @@
-# Hugo SMPL Theme
+# SMPL
 
-Hugo SMPL Theme is based on the [SMPL template by BlackTie](http://blacktie.co/2013/12/smpl-a-simple-contact-page/). It was ported to Hugo for training and fun. It is rather configurable and flexible despite its simplicity.
-
-
-## Demo
-
-Demo on [hugo-smpl-theme.netlify.com](//hugo-smpl-theme.netlify.com/).
-
-
-## Features
-
-- Responsive design
-- Configurable appearance
-- Configurable social links
-- Google Analytics
-
-
-## Screenshot
+SMPL is really simple theme to share your contact information and social links. It is a port of [SMPL](http://blacktie.co/2013/12/smpl-a-simple-contact-page/) by [Black Tie](http://blacktie.co).
 
 ![Hugo SMPL Theme screenshot](https://raw.githubusercontent.com/christianmendoza/hugo-smpl-theme/master/images/screenshot.png)
 
 
-## Contents
+## Demo
 
-- [Installation](#installation)
-- [Getting started](#getting-started)
-    - [The config file](#the-config-file)
-    - [Nearly finished](#nearly-finished)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+Demo available at [hugo-smpl-theme.netlify.com](//hugo-smpl-theme.netlify.com/).
 
 
 ## Installation
 
 Inside the folder of your Hugo site run:
 
-    $ mkdir themes
     $ cd themes
     $ git clone https://github.com/christianmendoza/hugo-smpl-theme
 
@@ -45,21 +22,21 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## Getting started
 
-After installing the SMPL Theme successfully it requires a just a few more steps to get your site running.
+After installing the SMPL theme successfully it requires a just a few more steps to get your site finally running.
 
 
 ### The config file
 
-Take a look inside the [`exampleSite`](//github.com/christianmendoza/hugo-smpl-theme/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/christianmendoza/hugo-smpl-theme/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](//github.com/christianmendoza/hugo-smpl-theme/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme. Play with already placed logo, social icons, and background image or use yours.
+Take a look inside the [`exampleSite`](//github.com/christianmendoza/hugo-smpl-theme/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](//github.com/christianmendoza/hugo-smpl-theme/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](//github.com/christianmendoza/hugo-smpl-theme/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to customize this theme as you like.
 
 
 ### Nearly finished
 
-In order to see your site in action, run Hugo's built-in local server. 
+In order to see your site in action, run Hugo's built-in local server.
 
-    $ hugo server -w
+    $ hugo server
 
-Now enter `localhost:1313` in the address bar of your browser.
+Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
 
 ## Contributing
@@ -69,12 +46,11 @@ Did you found a bug or got an idea for a new feature? Feel free to use the [issu
 
 ## License
 
-This work is licensed under the Creative Commons Attribution 3.0 Unported License. For more information read the [License](//github.com/christianmendoza/hugo-smpl-theme/blob/master/LICENSE).
+The original template is released under the [Creative Commons Attribution 3.0 License](//github.com/christianmendoza/hugo-smpl-theme/blob/master/LICENSE.md). Please keep the original attribution link when using for your own project. If you'd like to use the template without the attribution, you can check out the license option via the template [author's website](//onepagelove.com/me).
 
 
-## Acknowledgements
+## Annotations
 
-Thanks to
+- Original [SMPL](http://blacktie.co/2013/12/smpl-a-simple-contact-page/) Template by [Black Tie](http://blacktie.co)
 
-- [spf13](//github.com/spf13) for creating Hugo and the awesome community around the project
-- [BlackTie](http://blacktie.co/) for creating the original SMPL theme. Check them out for other awesome themes
+Also thanks to [Steve Francia](//github.com/spf13) for creating [Hugo](//gohugo.io) and the awesome community around the project.
