@@ -3,10 +3,10 @@ baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "BlackTie.co | Free Bootstrap Themes"
 theme = "hugo-smpl-theme"
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = "UA-XXXXXXXX-1"
+googleAnalytics = ""
 
 [params]
   # You can use Markdown for urls [text](//domain.tld/source)
@@ -46,6 +46,9 @@ googleAnalytics = "UA-XXXXXXXX-1"
     text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."
 
   # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
   [params.social_icons]
     enable = true
 
