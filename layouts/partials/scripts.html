@@ -1,7 +1,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="assets/js/jquery-1.10.2.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script>
@@ -16,5 +16,5 @@ $('.tooltip-demo').tooltip({
 <!-- More options: https://github.com/srobbin/jquery-backstretch -->
 <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
 <script>
-  $.backstretch("{{ .Site.Params.background.image }}"{{ if .Site.Params.background.fade.enable }}, { speed: {{ .Site.Params.background.fade.speed }} }{{ end }});
+  $.backstretch("{{ .Site.Params.background.image }}"{{ if .Site.Params.background.fade.enable }}, { speed:{{ .Site.Params.background.fade.speed }}}{{ end }});
 </script>
